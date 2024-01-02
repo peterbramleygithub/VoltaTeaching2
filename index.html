@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Volta Teaching</title>
+<meta name="description" content="Tutoring in Primary, KS3, GCSE, A-Levels/BTECs (English, Maths, Science, Drama, Singing, Acting, Dance and Musical Theatre."> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('images/vickysmile.jpg');
+  min-height: 500px;
+}
+
+/* Second image (Tutoring) */
+.bgimg-2 {
+  background-image: url("images/studentwriting.jpg");
+  min-height: 350px;
+}
+
+/* Third image (Performing Arts) */
+.bgimg-3 {
+  background-image: url("images/razvic.jpg");
+  min-height: 350px;
+}
+
+/* Forth image (Who am I) */
+.bgimg-4 {
+  background-image: url("images/vickysing.jpg");
+  min-height: 250px;
+}
+
+/* Fifth image (Contact) */
+.bgimg-5 {
+  background-image: url("images/vickyteach.jpg");
+  min-height: 350px;
+}
+
+.w3-wide {letter-spacing: 1px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#tutoring" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> TUTORING</a><!--portfolio-->
+    <a href="#performing" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-music"></i> PERFORMING ARTS TEACHING</a>	<!--new-->
+	<a href="#aboutme" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-star"></i> ABOUT ME</a>	<!--about-->
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#tutoring" class="w3-bar-item w3-button" onclick="toggleFunction()">TUTORING</a>
+	<a href="#performing" class="w3-bar-item w3-button" onclick="toggleFunction()">PERFORMING ARTS TEACHING</a>
+	<a href="#aboutme" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT ME</a>	<!--about-->
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-big w3-white w3-xlarge w3-wide w3-animate-opacity"><img src="images\voltatutoringlogoclear.png" alt="Volta Tutoring Logo" width="84" height="84">VOLTA TEACHING</span>
+<!--	<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">VOLTA </br>TUTORING</span>-->
+  </div>
+</div>
+
+
+
+<!-- Container (Home) -->
+<div class="w3-content w3-container w3-padding-64">
+ <h3 class="w3-center">Re-ignite their Learning</h3>
+  <p class="w3-center"><!-- <em>Re-ignite their Learning</em>--></br></br>
+  Private tutoring and Performing Arts teaching based in West Sussex. Ran by Vicky Bramley. </br>
+
+Tutoring in: <b>English, Maths, Science and Drama</b> either in person or virtually for <b>Primary, KS3, GCSE or A Levels/ BTECs</b> as well as those wishing to further their knowledge in subject areas.</br></br>
+Providing Performing Arts private 1-1 and group lessons and workshops in <b>Singing, Acting, Dance and Musical Theatre</b>.</br>
+For more information on either Tutoring or Performing Arts Teaching, please see the designated pages or please feel free to get in contact with me using the contact form below with any other queries or questions.</p>
+  <p class="w3-center"><em>Why Volta?</em></br></br>
+
+A 'Volta' is a poetic device in English which represents a turn in thought, or a change in idea. I decided to incorporate this into by business name as I believe private tutoring and teaching can be a pivotal step into the success of a student (be it through weekly classes or workshops) and hopefully create a 'Volta' towards the desired exam results.</p>
+</div>
+
+<div class="w3-row w3-center w3-padding-16">
+<h3 class=" w3-volta-teal">TESTIMONIALS</h3>
+<h4>See what some of our recent students thought</h4>
+  <div class="w3-third w3-section">
+  <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+    <p style="color: #007F0E"><b>“My tutoring was an amazing experience. Vicky made education fun, which for me was a struggle. She was always willing to let me ask questions and challenge me in just the right way to help grow my potential. I would recommend Vicky to anyone looking to explore their education a little more, she’s so lovely and will definitely be going back if needed. Thank you!”</p></b>
+</br></br>
+Gemma- Year 11
+	</div>
+  </div>
+  <div class="w3-third w3-section">
+    <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+   <p style="color: #007F0E"><b>“The sessions were really interesting and very enjoyable, they helped me understand the content a lot more as she is excellent at explaining new words or literature devices and how they are used in different texts.
+My quality of work definitely improved after having tutoring sessions with Vicky which showed in my exams.”</p></b>
+</br></br>
+Year 11
+</div>
+  </div>
+  <div class="w3-third w3-section">
+    <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+<p style="color: #007F0E"><b>‘Vicky was incredibly helpful throughout my GCSE experience. I always felt like I could go to her about any topic I was struggling with; and she was the person I needed when I was sitting there struggling in class. She would not only help me understand where I was going wrong, but also teach me new ways I could improve my answers- so highly recommend her no matter what your capabilities are!’</p></b>
+</br>
+Evangeline- Year 11
+</div>
+  </div>
+</div>
+
+
+<div class="w3-row w3-center w3-volta-teal w3-padding-16">
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">22+</span><br>
+    Students Taught
+  </div>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">643+</span><br>
+    Lessons Completed
+  </div>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">134+</span><br>
+    Group Students Taught
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="tutoring">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">TUTORING SESSIONS</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+     <p class="w3-center"> I offer tutoring sessions for homework help, mock and exam preparation, and general tuition. Following the National curriculum syllabus and exam board specifications, I ensure that your child receives the most tailored teaching for their individual success.</br></br>
+
+
+
+Sessions are an hour long either once or twice weekly, whenever is best suited to you. I align my sessions with the student's school term dates with the option for half term and holiday sessions to bridge the gaps of learning breaks. Currently sessions are ran virtually due to their success during the pandemic. Students access their session via Skype or Facetime and all resources are sent via email for access on their device and shared on screen.</br></br>
+
+Payments are made via bank transfer or standing order paid every half term in advance. Students may attend one trial session at the same hourly rate before committing to a half term payment. Please see below for the pricing details. I also offer one-off sessions to focus on a particular areas of weakness if the student does not need a full half term of sessions but just a little bit of help.</p>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-padding-16 w3-volta-teal">
+<p><h3>HOW MUCH IS IT?</h3>
+Don't panic, I've done the maths for you. The below figures are for each half term with one session a week and for two sessions a week, these values are doubled. Pricings are split into the key stages as follows. Mature learners are those wishing to further their subject knowledge or advance their current ability.</p>
+
+  <div class="w3-quarter w3-section">
+    <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+<em><b>KS2 STUDENT</b></em></br></br>
+Primary school students in years 3-6.</br>
+£18.87 per session</br>
+6 week half term-£113.22</br>
+7 week half term- £132.09
+  </div>
+  </div>
+  <div class="w3-quarter w3-section">
+    <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+<em><b>KS3 STUDENT</b></em></br></br>
+Secondary school students in years 7-9.</br>
+£19.87 per session</br>
+6 week half term-£119.22</br>
+7 week half term- £139.09
+  </div>
+  </div>
+  <div class="w3-quarter w3-section">
+    <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+<em><b>KS4 STUDENT</b></em></br></br>
+Year 10 and 11 students studying GCSE's.</br>
+£20.87 per session</br>
+6 week half term-£125.22</br>
+7 week half term- £146.09
+  </div>
+  </div>
+  <div class="w3-quarter w3-section">
+    <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+<em><b>KS5 OR MATURE LEARNING</b></em></br></br>
+A-Levels for Drama English Literature and mature learners</br>
+£21.87 per session</br>
+6 week half term-£131.22</br>
+7 week half term- £153.09</br>
+  </div>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text (was second) -->
+
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="performing">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PERFORMING ARTS TEACHING</span>
+  </div>
+</div>
+
+<!-- Container (Performing Arts Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+     <p class="w3-center"> I offer Singing, Acting, Dance and combination Musical Theatre private 1-1, small or large group lessons which can vary from weekly sessions to one off workshops. </br>
+ </br>
+Workshops can cater for: </br>
+
+  <b style="color: #007F0E">School enrichment activities and clubs</b></br>
+  <b style="color: #007F0E">Activity groups such as Girlguides and Scouts</b></br>
+  <b style="color: #007F0E">Birthday parties</b> </br></br>
+Prices depend on class size, duration, location and regularity so please get in contact for more information. </br>
+ </br>
+I can help in preperation for performances, auditions or graded exams and provide an environment where students feel comfortable and confident exploring the performing arts and challenging themselves to become the best performer they can be.
+ </br>
+Please see the listings below for more details on the delivery and content of lessons as well as my performing and teaching experience.</p>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-padding-16 w3-volta-teal">
+<p><h3>WHAT I OFFER</h3></p> 
+
+  <div class="w3-quarter w3-section">
+      <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+  <i class="fa fa-star-o fa-5x"></i></br>
+<em><b>SINGING LESSONS</b></em></br></br>
+In 1-1 and group singing and choral lessons, learners can work on pop and musical theatre repertoire focussing on enhancing performance skills and improving technique. Lessons can work towards performances or be in line with exam board syllabus' to help prepare students for singing exams such as LCM, Trinity and ABRSM.
+  </div>
+  </div>
+  <div class="w3-quarter w3-section">
+      <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+    <i class="fa fa-star-o fa-5x"></i></br>
+<em><b>ACTING LESSONS</b></em></br></br>
+Acting lessons can take many different forms depending on the desired outcome. Lessons can be used to build confidence in performing and gain valuable skills through the use of monologues, duologues or ensemble work. Sessions can be used for audition prep for drama schools or for exams such as LAMDA or RADA
+  </div>
+  </div>
+  <div class="w3-quarter w3-section">
+      <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+    <i class="fa fa-star-o fa-5x"></i></br>
+<em><b>DANCE LESSONS</b></em></br></br>
+Dance lessons can specialise in Musical Theatre, Jazz, Tap, Ballet, Contemporary and Commercial styles. Lessons will focus on the improvement of technique and the joy that connecting with our body and expression can have. Lessons can help aid in students in preparation for graded exams such as ISTD and RAD
+  </div>
+  </div>
+  <div class="w3-quarter w3-section">
+      <div style="margin-left:10px; margin-right:10px; background-color:#f1f1f1">
+    <i class="fa fa-star-o fa-5x"></i></br>
+<em><b>MUSICAL THEATRE CLASSES</b></em></br></br>
+Musical Theatre workshops and classes can be an incredible way to bring together all three disciplines of singing, acting and dancing. Working with musical theatre repertoire, choreography and scenes, students can work on combining theatrical elements in a fun and exciting medium.
+  </div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-padding-16" id="cancellation">
+<p><h3>MY PERFORMING AND TEACHING EXPERIENCE</h3>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+     <p class="w3-center">I have always loved musical theatre and took part in a variety of dance, singing and acting classes from a young age and performed regularly at local theatres and in school productions. I learned the RAD (Royal Academy of Dance) ballet syllabus as a child and sat exams in ISTD (Imperial Society of Teachers of Dance) Classical Ballet and Musical Theatre singing with London College of Music.</br></br>
+I am a singing teacher for students aged 4-18 in Saturday performing arts classes focussing on musical theatre and commercial pop. I frequently plan and deliver both bi- weekly, weekly and one off workshops and sessions for primary and secondary pupils in musical theatre skills. Exploring and developing the techniques of acting, singing and dance in a fun and engaging way whilst often preparing for end of term performances.</br></br>
+I coach vocal and physical warmups to train aural and kinaesthetic skills before teaching dynamic dances and songs with prepared vocal parts and harmonies. I adapt the difficulty levels appropriately to accommodate their differing ages, needs and ability with a fun approach. I have also partaken work experience in local theatres, classroom assisting in a local primary school, and a reading mentor for younger students.</br></br>
+I have also had a variety of other roles in the performing arts industry ranging from creative and production team roles such as assistant director, stage management assistance and costume and prop designing and chaperoning. I have also partaken in a work experience week for the LEAP (Learning, Education and participation) team at Chichester festival theatre.</p>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY PERFORMANCES</h3>
+  <p class="w3-center"><em><br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="images/beauty.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Beauty and the Beast">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/dagenham.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Made in Dagenham">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/hgarts.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chicago-Cell Block Tango">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/vickyshow1.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Enchanted">
+    </div>
+	
+  </div>
+</br>
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+
+    <div class="w3-col m3">
+      <img src="images/vickyshow2.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Priscilla Queen of the Desert">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/hawth.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Hawth Theatre - Acting">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/backing.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="Backing Singing">
+    </div>
+	
+    <div class="w3-col m3">
+      <img src="images/acting.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="6th Form Acting">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Forth Parallax Image with Portfolio Text -->
+
+<div class="bgimg-4 w3-display-container w3-opacity-min" id="aboutme">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">ABOUT ME</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><h3><i class="fa fa-user w3-margin-right"></i>Victoria Bramley</h3></b></p><br>
+	  <div class="imageBox">
+		  <div class="imageInn">
+			<img src="images/vickybramley.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+		  </div>
+		  <div class="hoverImg">
+			<img src="images/laugh.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333"">
+		  </div>
+</div>
+    <!--  <img src="vickybramley.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+	 hover show laugh.jpg-->
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-padding-large">
+      <p>My name is Victoria Bramley and I am passionate about education and ensuring that all students can have the right tools they need to succeed in school and therefore later life. I started the Volta teaching business in 2019 and since then, I have taught children and young people from ages 3-19. I have an up to date DBS check and clean UK driving license. </br></br>
+
+I ensure my sessions create a nurturing environment for students to challenge themselves to reach their full potential. I have always loved teaching and setting up my tutoring and teaching business has been the best decision. Being able to see students improving, growing in confidence and succeeding in exams is worth every hour spent lesson planning!</br></br>
+In my spare time, I enjoy going to Musical Theatre shows, Reading, Singing and playing the Piano.</p>
+    </div>
+  </div>
+  <p class="w3-wide w3-volta-teal w3-hide-small"><i class="fa fa-cubes w3-volta-teal"></i>My school results</p>
+  <div>
+  <p class="w3-hide-small">In my GCSE exams I received the grades 9 in English Literature, 8 in English Language, 7 in Maths, 7-6 in science, 7 in Art, 8 in Drama, 6 in German, 8 in History and a 9 in Religious Education.</br>In my A Levels I received an B in English Literature, an A in Theatre Studies and a B in Art and Design.</br>
+(9=A**, 8=A*, 7=A  6=B)</p>
+  </div>
+  <p class="w3-wide w3-volta-teal w3-hide-small"><i class="fa fa-graduation-cap w3-volta-teal"></i>My University degree</p>
+  <div>
+  <p class="w3-hide-small">I am in my graduate year studying BA (Hons) Teaching of Musical Theatre at the University of Chichester. </br>
+I have been offered a postgraduate place at the university of Sussex on a PGCE course for English and Drama at Secondary level.</p>
+  </div>
+  <p class="w3-wide w3-volta-teal w3-hide-small"><i class="fa fa-trophy w3-volta-teal"></i>Achievements</p>
+  <div>
+  <p class="w3-hide-small">I am a very keen charity worker and I have raised over £1,200 for an array of charities. I was a 'Campaign Champion; for the 'Send my friend to school' campaign in which we advocated for the rights of a safe and quality education globally and spoke to MP's and Ministers in Parliament on the change that needs to occur.</br>
+At my KS4 graduation, I won the Anne Bolt Shield for the best 'Record of achievement' in my year group for my in school and extra curricular achievements.</p>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Fifth Parallax Image with Portfolio Text (was third) -->
+<div class="bgimg-5 w3-display-container w3-opacity-min" id="contact">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64">
+
+  <h3><p class="w3-center"><em>How can I help you?</em></p></h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="images/online-lessons.jpg" class="w3-image w3-round" style="width:200%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: voltateaching@gmail.com<br>
+      </div>
+ 
+ <p>
+<h3>We would love to hear from you.</h3>
+<a href="mailto:voltateaching@gmail.com?subject=Volta%20Teaching%20Enquiry" target="_top">        
+<button class="w3-button w3-volta-teal w3-right w3-section" type="submit">
+    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+</button></a>
+</p>
+
+<p>Note: The button will only work if you have email installed.</p>
+
+  
+  
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-volta-teal"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+ <a href="https://www.facebook.com/voltateaching/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+ <a href="https://www.instagram.com/voltateaching?fbclid=IwAR1qtv4IaBdJE205WC4ALRIOAokcVAZLut-_GDil2Q4wcnKLUYBc3xfVWKg"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  </div>
+  <p>Click <a href="https://www.voltateaching.co.uk/VoltaPolicies.pdf" title="Policies" target="_blank" class="w3-hover-text-green">Here</a> to view Volta Teaching Policies</p>
+  <p>Powered by <a href="http://www.mbsolve.com" title="MB Solve" target="_blank" class="w3-hover-text-green">MB Solve</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
